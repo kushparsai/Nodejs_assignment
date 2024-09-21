@@ -5,7 +5,7 @@ const PORT = 3000 ;
 const dbConnect = require('./db')
 const errorHandler  = require('./middleware/errorHandler')
 //parse the data from the req.body
-app.use(express.json());
+app.use(express.json()) ;
 
 dbConnect()
 

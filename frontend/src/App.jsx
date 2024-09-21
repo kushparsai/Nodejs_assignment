@@ -5,7 +5,7 @@ export default function App(){
   return (
     <div>
    <Routes>
-    <Route path="/register" element={<Signup/>} />
+    <Route path="/register" element={<Signup/>}/>
    </Routes>
    <Toaster position="bottom-right" />
    </div>

@@ -8,7 +8,7 @@ exports.signUp = async (req, res, next) => {
 
     //check if user already exists
     if (isExistingUser) {
-      throw new Error('User already exists');
+      throw new Error('User already exists') ;
     }
     const user = await User.create(req.body);
     if (user) {
