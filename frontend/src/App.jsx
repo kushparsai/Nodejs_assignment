@@ -1,7 +1,7 @@
 import Signup from "./pages/Signup" 
 import {Routes , Route} from 'react-router-dom'
 import {Toaster} from 'sonner'
-export default function App() {
+export default function App(){
   return (
     <div>
    <Routes>

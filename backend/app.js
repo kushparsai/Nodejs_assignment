@@ -19,7 +19,7 @@ app.use((req,res,next)=>{
 })
 
 //global error handler middleware
-app.use(errorHandler) ;
+app.use(errorHandler);
 
 
 app.listen(PORT , ()=>{
